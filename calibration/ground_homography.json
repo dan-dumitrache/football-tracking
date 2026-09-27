@@ -1,0 +1,39 @@
+{
+    "description": "Image-to-ground-plane homography calculated from four floor-tile corners.",
+    "frame_number": 300,
+    "coordinate_system": {
+        "X": "horizontal direction from P1/P4 toward P2/P3",
+        "Y": "ground direction from P1/P2 toward P4/P3",
+        "units": "meters"
+    },
+    "scale_assumption": {
+        "tile_width_m": 0.6,
+        "tile_height_m": 0.6,
+        "description": "Working estimate based on visual comparison with a standard football. Tile dimensions are not independently verified."
+    },
+    "homography_image_to_ground": [
+        [
+            0.03540550228282524,
+            0.013405966883788183,
+            -31.55867727265924
+        ],
+        [
+            0.007260455188773059,
+            -0.057804393233693165,
+            30.52658384119631
+        ],
+        [
+            -0.0015853459141149885,
+            0.02067553833325416,
+            1.0
+        ]
+    ],
+    "reprojection_error_m": [
+        2.8226549757103946e-16,
+        5.552927244237315e-16,
+        0.0,
+        0.0
+    ],
+    "mean_reprojection_error_m": 2.0938956211613764e-16,
+    "max_reprojection_error_m": 5.552927244237315e-16
+}

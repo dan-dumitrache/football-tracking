@@ -1,0 +1,52 @@
+{
+    "frame_number": 300,
+    "assumption": {
+        "tile_width_m": 0.6,
+        "tile_height_m": 0.6,
+        "description": "Working estimate based on visual comparison with a standard football. Tile dimensions are not independently verified."
+    },
+    "image_points": [
+        {
+            "name": "P1",
+            "x_px": 660,
+            "y_px": 611
+        },
+        {
+            "name": "P2",
+            "x_px": 867,
+            "y_px": 637
+        },
+        {
+            "name": "P3",
+            "x_px": 870,
+            "y_px": 528
+        },
+        {
+            "name": "P4",
+            "x_px": 699,
+            "y_px": 508
+        }
+    ],
+    "world_points": [
+        {
+            "name": "P1",
+            "x_m": 0.0,
+            "y_m": 0.0
+        },
+        {
+            "name": "P2",
+            "x_m": 0.6,
+            "y_m": 0.0
+        },
+        {
+            "name": "P3",
+            "x_m": 0.6,
+            "y_m": 0.6
+        },
+        {
+            "name": "P4",
+            "x_m": 0.0,
+            "y_m": 0.6
+        }
+    ]
+}
